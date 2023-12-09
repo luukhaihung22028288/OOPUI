@@ -1,0 +1,80 @@
+.chat_background {
+    -fx-background-color: #F0F8FF;
+}
+
+.ui_background {
+    -fx-background-color: linear-gradient(to right, #5B86E5, #36D1DC);
+}
+
+
+.my_bubble {
+    -fx-background-color: #32de84;
+    -fx-background-radius: 15 15 15 15;
+    -fx-border-radius: 15 15 15 15;
+    -fx-font-size: 20;
+    -fx-text-fill: white;
+    -fx-padding: 0 0 0 5;
+}
+
+.friend_bubble {
+    -fx-background-color: #3457D5;
+    -fx-background-radius: 15 15 15 15;
+    -fx-border-radius: 15 15 15 15;
+    -fx-font-size: 20;
+    -fx-text-fill: white;
+    -fx-padding: 0 0 0 5;
+}
+
+.my_bubble_top {
+    -fx-background-color: #32de84;
+    -fx-background-radius: 15 15 0 15;
+    -fx-border-radius: 15 15 0 15;
+    -fx-font-size: 20;
+    -fx-text-fill: white;
+    -fx-padding: 0 0 0 5;
+}
+
+.my_bubble_mid {
+    -fx-background-color: #32de84;
+    -fx-background-radius: 15 0 0 15;
+    -fx-border-radius: 0 15 15 0;
+    -fx-font-size: 20;
+    -fx-text-fill: white;
+    -fx-padding: 0 0 0 5;
+}
+
+.my_bubble_bot {
+    -fx-background-color: #32de84;
+    -fx-background-radius: 15 0 15 15;
+    -fx-border-radius: 15 0 15 15;
+    -fx-font-size: 20;
+    -fx-text-fill: white;
+    -fx-padding: 0 0 0 5;
+}
+
+.friend_bubble_top {
+    -fx-background-color: #3457D5;
+    -fx-background-radius: 15 15 15 0;
+    -fx-border-radius: 15 15 15 0;
+    -fx-font-size: 20;
+    -fx-text-fill: white;
+    -fx-padding: 0 0 0 5;
+}
+
+.friend_bubble_mid {
+    -fx-background-color: #3457D5;
+    -fx-background-radius: 0 15 15 0;
+    -fx-border-radius: 0 15 15 0;
+    -fx-font-size: 20;
+    -fx-text-fill: white;
+    -fx-padding: 0 0 0 5;
+}
+
+.friend_bubble_bot {
+    -fx-background-color: #3457D5;
+    -fx-background-radius: 0 15 15 15;
+    -fx-border-radius: 0 15 15 15;
+    -fx-font-size: 20;
+    -fx-text-fill: white;
+    -fx-padding: 0 0 0 5;
+}
